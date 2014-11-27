@@ -1,0 +1,92 @@
+.btn
+{
+   font-size: 14px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   color: #000;
+   opacity: 0.9;
+   height: auto;
+   position: relative;
+   margin: 5px;
+   padding: 6px;
+   border: none;
+   text-decoration: none;
+   cursor: pointer;
+   background: #ffffff;
+    
+}
+
+.btn-primary
+{
+	background: #ffffff;
+  color: #000;
+	
+}
+
+.btn-gray
+{
+	
+	background: url('../../img/btn_gray.jpg') repeat-x;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #ccc;
+}
+
+
+
+
+/*checkbox & radio style*/
+
+/*
+input[type=radio]{
+
+  border: 2px solid #ccc;
+  background: red;
+  padding: 20px;
+ 
+}
+
+input[type=radio].css-checkbox {
+
+  left: 20px;
+  visibility: hidden;
+  position: relative;
+   z-index: 2;
+
+}
+
+input[type=radio].css-checkbox + label.css-label {
+	
+  padding-left:28px;
+	height:23px; 
+	display:inline-block;
+	line-height:23px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:12px;
+	vertical-align:middle;
+	cursor:pointer;
+
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+	background-position: 0 -23px;
+}
+
+
+label.css-label {
+
+  background: url('../../../../../../../../_assets/sites_flipstop/default/img/btn_radio.png') repeat-x;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 11px;
+
+
+}*/

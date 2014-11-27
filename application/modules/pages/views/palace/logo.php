@@ -1,0 +1,1 @@
+<img class="fs-logo"  src="<?php echo base_url('_assets/'.$theme.'/img/logo.jpg');?>">

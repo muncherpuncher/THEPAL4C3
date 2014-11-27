@@ -1,0 +1,62 @@
+
+.content
+{
+	max-width: 1200px;
+	width: 1200px;
+	min-width: 1200px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+.center {
+
+  float: none; 
+  margin-left: auto; 
+  margin-right: auto;
+} 
+
+.center-block {
+
+	float:none;
+	margin:0 auto
+	
+}
+
+.top-buffer { 
+
+	margin-top:20px; 
+}
+
+
+.text-center
+{
+	text-align: center;
+}
+
+/* form-registration Country specific form fields */
+#form-registration .form-group #state,
+#form-registration .form-group #zipcode
+{
+  display: none;
+}
+
+
+.pull-right
+{
+	float: right;
+}
+.pull-left
+{
+	float: left;
+}
+
+.show()
+{
+	display: block;
+}
+
+.hide()
+{
+	display: none;
+}

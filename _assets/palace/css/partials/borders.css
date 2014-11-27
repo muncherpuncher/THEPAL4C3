@@ -1,0 +1,11 @@
+.border-dotted
+{
+
+	border-bottom: 2px dotted #ff4747;
+	height:14px; /* specify a height for this hr */
+	overflow:hidden;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 104%;
+
+}

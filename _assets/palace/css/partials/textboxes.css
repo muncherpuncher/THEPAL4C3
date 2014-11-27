@@ -1,0 +1,15 @@
+input[type=text],
+input[type=password] {
+    background: none repeat scroll 0% 0% #CCC;
+    border: 1px solid #2D3035;
+    margin: 3px;
+    height: 30px;
+    color: #3C3E3F;
+    font-weight: normal;
+    font-size: 12px;
+    border-radius: 2px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 20px;
+    width: 100%;
+}

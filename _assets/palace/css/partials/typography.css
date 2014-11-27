@@ -1,0 +1,33 @@
+
+@font-face{
+font-family: "Helvetica Neu";
+src: url("../../../_fonts/custom/helvetica/helveticaneue-webfont.ttf");
+
+}
+
+
+p{
+	font-size: 12px;
+}
+
+
+
+.header-greeting
+{
+  padding: 2px 0px 0px 5px;
+  margin-left: 5px;
+  color: #ccc;
+
+}
+
+.header-greeting .name
+{
+  color: #da5056;
+}
+
+
+.fs-text-gray
+{
+	color: #999999;
+
+}

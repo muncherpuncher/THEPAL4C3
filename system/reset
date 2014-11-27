@@ -1,0 +1,27 @@
+SET FOREIGN_KEY_CHECKS=0;
+
+TRUNCATE TABLE `email_verification`;
+TRUNCATE TABLE `users_verification_code`;
+TRUNCATE TABLE `clients_personal_info`;
+TRUNCATE TABLE `clients_business_images`;
+TRUNCATE TABLE `clients_plan`;
+TRUNCATE TABLE `clients_business_gmap`;
+TRUNCATE TABLE `clients_business_branches_hours`;
+
+TRUNCATE TABLE `clients_business_branches`;
+TRUNCATE TABLE`clients_business`;
+
+TRUNCATE TABLE users_access_roles;
+TRUNCATE TABLE users;
+TRUNCATE TABLE `clients_business_interaction` 
+
+
+INSERT INTO `users` (`id`, `username`, `password`, `access_flag`, `verify_flag`, `date_created`) VALUES
+(1, 'admin', 'e99a18c428cb38d5f260853678922e03', 1, 1, '2014-03-6');
+
+TRUNCATE TABLE `temp_clients_business`;
+TRUNCATE TABLE `temp_clients_personal_info`;
+TRUNCATE TABLE `temp_clients_business_branches`;
+
+
+SET FOREIGN_KEY_CHECKS=1;

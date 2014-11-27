@@ -1,0 +1,13 @@
+.fs-link-pink:link,
+.fs-link-pink:active,
+.fs-link-pink:visited,
+.fs-link-pink:hover
+{
+	color: #FF4747;
+	padding: 5px;
+	height: 30px;
+	position: relative;
+	font-size: 14px;
+	text-decoration: none;
+
+}

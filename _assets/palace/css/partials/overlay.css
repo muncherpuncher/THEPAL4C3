@@ -1,0 +1,17 @@
+.overlay
+{
+  height:100%;
+  width:100%;
+  position:fixed;
+  left:0;
+  top:0;
+  z-index:999999 !important;
+  background-color:black;
+  filter: alpha(opacity=75); /* internet explorer */
+  -khtml-opacity: 0.75;      /* khtml, old safari */
+  -moz-opacity: 0.75;       /* mozilla, netscape */
+  opacity: 0.75;           /* fx, safari, opera */
+  display: block;
+  text-align: center;
+  display: none;
+}

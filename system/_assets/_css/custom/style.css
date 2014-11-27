@@ -1,0 +1,129 @@
+@charset "utf-8";
+/*CSS DOCUMENT*/
+
+ul {list-style:none;}
+
+/* ================
+	Page Template
+  ============== */
+#main-container {min-height:100%; height:auto !important;}  
+header {}
+.header-top-links {background:#000; color:#fff; line-height:18px; padding-top:8px; width:100%;}
+
+.header-top-center {margin:0 auto; width:1024px;}
+
+.header-top-links span, .header-top-links ul {float:left;}
+.header-top-links span {margin-right:10px;}
+.header-top-links ul li {float:left; margin-right:5px;}
+.header-top-links ul li a {color:#2e98fa;}
+.header-top-links ul li a:hover {text-decoration:underline;}
+
+.logo-search {margin:0 auto; padding:10px 0; width:1024px;}
+
+.logo {float:left;}
+.search-box {float:right; margin-top:20px;}
+.search-box input[type="text"] {color:#bdbdbd; font-size:13px; height:26px;}
+.search-box input[type="submit"] {background:#2e98fa; color:#fff; font-size:14px; font-weight:bold; border:none; border-radius:5px; -webkit-border-radius:5px; -ms-border-radius:5px; -moz-border-radius:5px; padding:10px 20px; }
+
+nav {background:#e8e8e8; font-size:16px}
+nav ul {margin:0 auto; width:1024px;}
+nav ul li {float:left; background: url('../images/page_template/nav_separator.png') no-repeat right;}
+nav ul li:last-child {background:none;}
+nav ul li a {display:block; color:#3c3c3c; padding:12.5px 14px 12.5px 12px;}
+
+#main-wrapper {padding-bottom:30px;} 
+
+footer {background:#282828; margin-top:-30px; width:100%; height:30px;}
+footer section {margin:0 auto; width:1024px;}
+footer section p { margin-top:5px;}
+.copyrights {color:#fff;}
+/* ===================
+	End Page Template
+ ================== */
+  
+/* ===============
+	Helper Class
+ ============== */
+.clr {clear:both; float:none;}
+.fl {float:left;}
+.fr {float:right;}
+.border {border:1px solid #ff0000;}
+.error {border:1px solid #ff0000 !important;}
+/* ===================
+	End Helper Class
+ ================== */
+ 
+ /* ================
+	Page Style
+ ================ */
+.template {margin:0 auto; width:1024px;}
+
+#login-form form ul li {float:left;}
+#login-form form ul li label, #login form ul li input {float:left;}
+#login-form form ul li {margin-right:5px;}
+#login-form form ul li label {margin: 3px 5px 0 0;}
+#login-form form ul li input[type="text"], #login-form form ul li input[type="password"] {height:26px;}
+#login-form form ul li input[type="submit"] {background:#2e98fa; color:#fff; font-size:14px; font-weight:bold; border:none; border-radius:5px; -webkit-border-radius:5px; -ms-border-radius:5px; -moz-border-radius:5px; padding:5px 20px;}
+#login-form a {float:left;}
+
+#forgot-form form ul li {float:left;}
+#forgot-form form ul li label, #login form ul li input {float:left;}
+#forgot-form form ul li {margin-right:5px;}
+#forgot-form form ul li label {margin: 3px 5px 0 0;}
+#forgot-form form ul li input[type="text"], #login-form form ul li input[type="password"] {height:26px;}
+#forgot-form form ul li input[type="submit"] {background:#2e98fa; color:#fff; font-size:14px; font-weight:bold; border:none; border-radius:5px; -webkit-border-radius:5px; -ms-border-radius:5px; -moz-border-radius:5px; padding:5px 20px;}
+ 
+.demo {background:url('../images/page_template/store.jpg') no-repeat; text-align:center; text-shadow: 1px 0px 30px rgba(2, 0, 0, 1); height:491px; width:1024px;}
+.demo p:first-child {font-style:italic; font-size:2em; padding-top:40px;}
+.demo p{font-size:8em; line-height:70px;}
+.demo span {display:block; background:#fff; color:#3c3c3c; border-radius:10px; -webkit-border-radius:10px; -moz-border-radius:5px; -ms-border-radius:10px; text-shadow:none; margin:30px auto; padding:5px 0;width:130px;}
+.demo span a:hover {text-decoration:none;}
+
+.quick-signup form ul li {float:left; margin-right:10px;}
+.quick-signup form ul li label, .quick-signup form ul li input[type="text"], .quick-signup form ul li input[type="password"] {float:left; margin-right:10px;}
+.quick-signup form ul li label {margin:5px 10px 0 0; padding:0;}
+.quick-signup form ul li input[type="text"], .quick-signup form ul li input[type="password"] {height:26px;}
+.quick-signup form ul li input[type="submit"] {background:#2e98fa; color:#fff; font-size:14px; font-weight:bold; border:none; border-radius:5px; -webkit-border-radius:5px; -ms-border-radius:5px; -moz-border-radius:5px; padding:5px 20px;}
+
+.pricing {margin:20px 0;}
+
+.pricing-box {float:left; background:#f8f8f8; text-align:center; margin-right:8px; padding:20px; width:200px;}
+.pricing-box h2 {font-size:22px; color:#2e98fa;}
+.pricing-box a {background:#2e98fa; color:#fff; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; padding:2px 4px;}
+.pricing-price {font-size:41px; color:#2e98fa;}
+
+
+.contact-form {background:#dedede; float:left; padding:10px;}
+.contact-form ul li {margin-bottom:10px;}
+.contact-form ul li:last-child {margin-bottom:0;}
+.contact-form ul li label, .contact-form ul li input {float:left;}
+.contact-form ul li label {width:70px;}
+.contact-form input[type="text"] {color:#888; font-size:15px; border:1px solid #D5D5D5; box-shadow:0px 2px 7px #E9E7E7 inset; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; vertical-align:middle; padding:7px 0 6px 11px; width:478px	;}
+.contact-form select {color:#888; font-size:15px; border:1px solid #D5D5D5; box-shadow:0px 2px 7px #E9E7E7 inset; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; vertical-align:middle; padding:7px 0 6px 11px; width:478px;}
+.contact-form textarea {resize:none; border:1px solid #D5D5D5; box-shadow:0px 2px 7px #E9E7E7 inset; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; width:478px; height:245px;}
+.contact-form input[type="submit"] {background:#fff; border: 1px solid #ccc; border-radius:5px; -webkit-border-radius:5px; -moz-border-radius:5px; -ms-border-radius:5px; margin-left:70px; padding:5px 0;width:160px;}
+
+
+/* Added for Demo Purposes */
+
+/* Cirles on Landing Page */
+
+.destacados{
+    padding: 20px 0;
+	text-align: center;
+}
+.destacados > div > div{
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: 0.2s;
+}
+.destacados > div:hover > div{
+	margin-top: -10px;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+	background: rgba(200, 200, 200, 0.1);
+	transition: 0.5s;
+}
+
+/* Cirles on Landing Page */
